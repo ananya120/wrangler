@@ -153,4 +153,13 @@ public enum TokenType implements Serializable {
    * on characters that can be present in a string.
    */
   IDENTIFIER
+  /**
+   * Represents a byte size value like 10MB, 5KB etc.
+   */
+  BYTE_SIZE,
+
+  /**
+   * Represents a time duration value like 150ms, 2s, 5m, etc.
+   */
+  TIME_DURATION
 }
